@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="cairo_static_init">
+  <PropertyGroup Label="Debug and static and RuntimeLibraryNull" Condition="( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(Linkage-cairo_static.ToLower())' == 'static' And ('$(RuntimeLibrary)' == '')">
+    <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+  </PropertyGroup>
+  <PropertyGroup Label="Release and static and RuntimeLibraryNull" Condition="( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(Linkage-cairo_static.ToLower())' == 'static' And ('$(RuntimeLibrary)' == '')">
+    <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+  </PropertyGroup>
+  <PropertyGroup Label="Default initializers for properties">
+    <Linkage-cairo_static Condition="'$(Linkage-cairo_static)' == ''">dynamic</Linkage-cairo_static>
+    <CallingConvention-cairo_static Condition="'$(CallingConvention-cairo_static)' == ''">cdecl</CallingConvention-cairo_static>
+  </PropertyGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\default-propertiesui.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\cairo_static-propertiesui-5db4783c-5e82-4df2-b21e-fcc041e00c97.xml" />
+  </ItemGroup>
+  <ItemDefinitionGroup Label="static" Condition="'$(Linkage-cairo_static.ToLower())' == 'static'">
+    <ClCompile>
+      <RuntimeLibrary>$(RuntimeLibrary)</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v140 and Release" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v140\Release\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v140 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v140\Debug\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v140 and Release" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v140\Release\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v140 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v140\Debug\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v141 and Release" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v141\Release\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v141 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v141\Debug\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v141 and Release" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v141\Release\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v141 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v141\Debug\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Release and MultiThreaded" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreaded'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Release\MultiThreaded\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Debug and MultiThreadedDebug" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebug'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Debug\MultiThreadedDebug\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Release and MultiThreaded" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreaded'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Release\MultiThreaded\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Debug and MultiThreadedDebug" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebug'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Debug\MultiThreadedDebug\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Release and MultiThreadedDLL" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Release\MultiThreadedDLL\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Debug and MultiThreadedDebugDLL" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebugdll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Debug\MultiThreadedDebugDLL\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Release and MultiThreadedDLL" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Release\MultiThreadedDLL\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Debug and MultiThreadedDebugDLL" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebugdll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Debug\MultiThreadedDebugDLL\cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <UsingTask TaskName="cairo_static_Contains" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" TaskFactory="CodeTaskFactory">
+    <ParameterGroup>
+      <Text Output="false" ParameterType="System.String" />
+      <Library Output="false" Required="true" ParameterType="System.String" />
+      <Value Output="false" Required="true" ParameterType="System.String" />
+      <Result Output="true" ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>
+      <Code>Result = ((Text ?? "").Split(';').Contains(Library) ) ? Value : String.Empty;</Code>
+    </Task>
+  </UsingTask>
+  <Target Name="cairo_static_init">
+    <cairo_static_Contains Text="Linkage-dynamic" Library="cairo_static" Value="dynamic" Condition="'$(Linkage-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="Linkage-static" Library="cairo_static" Value="static" Condition="'$(Linkage-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="Linkage-ltcg" Library="cairo_static" Value="ltcg" Condition="'$(Linkage-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="Linkage-sxs" Library="cairo_static" Value="sxs" Condition="'$(Linkage-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="CallingConvention-cdecl" Library="cairo_static" Value="cdecl" Condition="'$(CallingConvention-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="CallingConvention-stdcall" Library="cairo_static" Value="stdcall" Condition="'$(CallingConvention-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="CallingConvention-fastcall" Library="cairo_static" Value="fastcall" Condition="'$(CallingConvention-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="CallingConvention-thiscall" Library="cairo_static" Value="thiscall" Condition="'$(CallingConvention-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-cairo_static" />
+    </cairo_static_Contains>
+    <cairo_static_Contains Text="CallingConvention-clrcall" Library="cairo_static" Value="clrcall" Condition="'$(CallingConvention-cairo_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-cairo_static" />
+    </cairo_static_Contains>
+  </Target>
+</Project>

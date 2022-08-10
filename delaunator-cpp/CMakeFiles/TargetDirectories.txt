@@ -1,0 +1,15 @@
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/Experimental.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/Nightly.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/Continuous.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/NightlyMemoryCheck.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/delaunator.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/RUN_TESTS.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/ALL_BUILD.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/CMakeFiles/ZERO_CHECK.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/gtest/CMakeFiles/gtest.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/gtest/CMakeFiles/gtest_main.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/gtest/CMakeFiles/RUN_TESTS.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/gtest/CMakeFiles/ALL_BUILD.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/issue-8.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/delaunator.test.dir
+E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/RUN_TESTS.dir

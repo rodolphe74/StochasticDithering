@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\developpements\visual\StochasticDithering\poisson-disk-generator\Poisson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\developpements\visual\StochasticDithering\poisson-disk-generator\PoissonGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\developpements\visual\StochasticDithering\poisson-disk-generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{66A99F14-6ACE-3BBD-B2A4-ED13C80A6427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DA79DBB9-5323-302A-A75A-118CF8D23072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

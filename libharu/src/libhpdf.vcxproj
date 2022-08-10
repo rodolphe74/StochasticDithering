@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A624F711-BCF9-3C8D-849C-40D2681A60BB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <Platform>x64</Platform>
+    <ProjectName>libhpdf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libhpdf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libhpdfd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libhpdf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libhpdf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libhpdf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libhpdf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libhpdf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libhpdf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/Debug/libhpdfd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/Debug/libhpdfd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/Release/libhpdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/Release/libhpdf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/MinSizeRel/libhpdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/MinSizeRel/libhpdf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";HPDF_DLL_MAKE</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/RelWithDebInfo/libhpdf.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/RelWithDebInfo/libhpdf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu -BC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu --check-stamp-file C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu -BC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu --check-stamp-file C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu -BC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu --check-stamp-file C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu -BC:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu --check-stamp-file C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_annotation.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_array.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_binary.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_boolean.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_catalog.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_destination.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_dict.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_doc_png.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_doc.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encoder_cns.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encoder_cnt.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encoder_jp.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encoder_kr.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encoder.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encrypt.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encryptdict.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_error.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_ext_gstate.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_font_cid.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_font_tt.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_font_type1.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_font.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_base14.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_cid.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_cns.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_cnt.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_jp.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_kr.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_tt.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef_type1.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_fontdef.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_gstate.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_image_ccitt.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_image_png.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_image.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_info.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_list.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_mmgr.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_name.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_namedict.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_null.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_number.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_objects.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_outline.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_page_label.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_page_operator.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_pages.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_real.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_streams.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_string.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_u3d.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_utils.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_xref.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_pdfa.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_3dmeasure.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_exdata.c" />
+    <ClCompile Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\src\hpdf_encoder_utf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\ZERO_CHECK.vcxproj">
+      <Project>{88EE2EED-E564-3C80-BD86-ACA03C638B88}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

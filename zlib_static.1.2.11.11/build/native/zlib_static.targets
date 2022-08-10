@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="zlib_static_init">
+  <PropertyGroup Label="Debug and static and RuntimeLibraryNull" Condition="( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(Linkage-zlib_static.ToLower())' == 'static' And ('$(RuntimeLibrary)' == '')">
+    <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+  </PropertyGroup>
+  <PropertyGroup Label="Release and static and RuntimeLibraryNull" Condition="( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(Linkage-zlib_static.ToLower())' == 'static' And ('$(RuntimeLibrary)' == '')">
+    <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+  </PropertyGroup>
+  <PropertyGroup Label="Default initializers for properties">
+    <Linkage-zlib_static Condition="'$(Linkage-zlib_static)' == ''">dynamic</Linkage-zlib_static>
+    <CallingConvention-zlib_static Condition="'$(CallingConvention-zlib_static)' == ''">cdecl</CallingConvention-zlib_static>
+  </PropertyGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\default-propertiesui.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\zlib_static-propertiesui-edbf9436-f605-45a7-8090-911623294117.xml" />
+  </ItemGroup>
+  <ItemDefinitionGroup Label="static" Condition="'$(Linkage-zlib_static.ToLower())' == 'static'">
+    <ClCompile>
+      <RuntimeLibrary>$(RuntimeLibrary)</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v140 and Release" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v140\Release\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v140 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v140\Debug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v140 and Release" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v140\Release\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v140 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v140' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v140\Debug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v141 and Release" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v141\Release\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v141 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v141\Debug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v141 and Release" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v141\Release\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v141 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v141' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v141\Debug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Release and MultiThreaded" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreaded'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Release\MultiThreaded\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Debug and MultiThreadedDebug" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebug'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Debug\MultiThreadedDebug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Release and MultiThreaded" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreaded'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Release\MultiThreaded\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Debug and MultiThreadedDebug" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebug'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Debug\MultiThreadedDebug\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Release and MultiThreadedDLL" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Release\MultiThreadedDLL\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v142 and Debug and MultiThreadedDebugDLL" Condition="'$(Platform.ToLower())' == 'win32' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebugdll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v142\Debug\MultiThreadedDebugDLL\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Release and MultiThreadedDLL" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Release\MultiThreadedDLL\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v142 and Debug and MultiThreadedDebugDLL" Condition="'$(Platform.ToLower())' == 'x64' And '$(PlatformToolset.ToLower())' == 'v142' And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 ) And '$(RuntimeLibrary.ToLower())' == 'multithreadeddebugdll'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v142\Debug\MultiThreadedDebugDLL\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <UsingTask TaskName="zlib_static_Contains" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" TaskFactory="CodeTaskFactory">
+    <ParameterGroup>
+      <Text Output="false" ParameterType="System.String" />
+      <Library Output="false" Required="true" ParameterType="System.String" />
+      <Value Output="false" Required="true" ParameterType="System.String" />
+      <Result Output="true" ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>
+      <Code>Result = ((Text ?? "").Split(';').Contains(Library) ) ? Value : String.Empty;</Code>
+    </Task>
+  </UsingTask>
+  <Target Name="zlib_static_init">
+    <zlib_static_Contains Text="Linkage-dynamic" Library="zlib_static" Value="dynamic" Condition="'$(Linkage-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="Linkage-static" Library="zlib_static" Value="static" Condition="'$(Linkage-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="Linkage-ltcg" Library="zlib_static" Value="ltcg" Condition="'$(Linkage-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="Linkage-sxs" Library="zlib_static" Value="sxs" Condition="'$(Linkage-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="CallingConvention-cdecl" Library="zlib_static" Value="cdecl" Condition="'$(CallingConvention-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="CallingConvention-stdcall" Library="zlib_static" Value="stdcall" Condition="'$(CallingConvention-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="CallingConvention-fastcall" Library="zlib_static" Value="fastcall" Condition="'$(CallingConvention-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="CallingConvention-thiscall" Library="zlib_static" Value="thiscall" Condition="'$(CallingConvention-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-zlib_static" />
+    </zlib_static_Contains>
+    <zlib_static_Contains Text="CallingConvention-clrcall" Library="zlib_static" Value="clrcall" Condition="'$(CallingConvention-zlib_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-zlib_static" />
+    </zlib_static_Contains>
+  </Target>
+</Project>

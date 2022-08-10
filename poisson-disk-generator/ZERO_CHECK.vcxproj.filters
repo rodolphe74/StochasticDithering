@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\developpements\visual\StochasticDithering\poisson-disk-generator\CMakeFiles\86fff91173de0f52cc32deb38d7dd296\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{69C99061-5EF3-3818-9ECC-DCD0C0AABD1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
