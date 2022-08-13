@@ -28,4 +28,4 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 5 - Le processus est répété pour tous les points de la distribution. 
 
-6 - Les arêtes des triangles n'étant pas toujours bien calés autour d'un point, un post-traitement ([convex hull](https://en.wikipedia.org/wiki/Convex_hull_algorithms)) est fait pour attenuer les éventuels effets d'escalier entre triangles.
+6 - Les arêtes des triangles n'étant pas toujours bien calés autour d'un point, un post-traitement ([convex hull](https://en.wikipedia.org/wiki/Convex_hull_algorithms)) est fait pour attenuer les éventuels effets d'escalier entre triangles et ainsi obtenir des polygones plus réguliers.
