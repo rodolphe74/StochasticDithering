@@ -32,7 +32,7 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 Sans | Avec                                    |
 ---  | -------                                 |
-<img src="img/without.png" height="200">  | <img src="/with.png" height="200"> |
+<img src="img/without.png" height="200">  | <img src="/img/with.png" height="200"> |
 
 
 7 - La version CMYK reprend le même principe que la version BW. L'image couleur est d'abord décomposée en teintes Cyan, Magenta, Jaune, Noir. Chaque teinte subit une rotation spécifique avant le processus de tramage. Une image composite resultante est créée à partir des 4 teintes sur lesquelles les rotations inverses respectives ont été préalablement réalisées.
