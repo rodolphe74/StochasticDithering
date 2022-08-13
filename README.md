@@ -11,3 +11,5 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 # Les étapes
 
 ## 1 - Distribution aléatoire régulière de points ([un mix de poisson/bruit bleu](https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf))
+
+<img src="img/poisson.png" height="200">
