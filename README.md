@@ -18,5 +18,5 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 <img src="img/delaynay.png" height="200">
 
-3 - Il faut alors calculer le niveau de gris de chaque triangle en fonction de l'image à tramer
+3 - Sont alors calculés les niveaux de gris de chaque triangle en fonction de l'image à tramer
 
