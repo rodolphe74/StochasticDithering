@@ -21,3 +21,7 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 3 - Est alors calculé le niveau de gris moyen de chaque triangle autour d'un point en fonction de l'image à tramer
 
 <img src="img/dither.png" height="200">
+
+4 - Ce niveau de gris permet de calculer la taille des triangles formant la trame
+
+<img src="img/triangles.png" height="200"> &nbsp; jj
