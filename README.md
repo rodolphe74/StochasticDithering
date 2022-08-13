@@ -25,3 +25,5 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 4 - Ce niveau de gris permet de calculer la taille des triangles formant la trame
 
 <img src="img/triangles.png" height="200"> &nbsp; <img src="img/trame.png" height="200">
+
+5 - Le processus est répété pour tous les points de la distribution
