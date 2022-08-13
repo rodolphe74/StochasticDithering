@@ -30,4 +30,4 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 6 - Les arêtes des triangles n'étant pas toujours bien calés autour d'un point, un post-traitement ([convex hull](https://en.wikipedia.org/wiki/Convex_hull_algorithms)) est fait pour attenuer les éventuels effets d'escalier entre triangles et ainsi obtenir des polygones plus réguliers.
 
-7 - La version CMYK reprend le même principe que la version BW. L'image couleur est d'abord décomposé en teintes Cyan, Magenta, Jaune, Noir. Chaque teinte subit une rotation spécifique avant le processus de tramage. Une image composite resultante est créée à partir des 4 teintes sur lesquelles les rotations inverses respectives ont été préalablement réalisées.
+7 - La version CMYK reprend le même principe que la version BW. L'image couleur est d'abord décomposée en teintes Cyan, Magenta, Jaune, Noir. Chaque teinte subit une rotation spécifique avant le processus de tramage. Une image composite resultante est créée à partir des 4 teintes sur lesquelles les rotations inverses respectives ont été préalablement réalisées.
