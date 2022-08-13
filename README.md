@@ -4,7 +4,7 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 # Examples
 
- dddd| BW                                    | CMYK |
----     | -------                                    | ------- |
+ Original| BW                                    | CMYK    |
+---      | -------                               | ------- |
 <img src="img/rr.png" height="200">  | <img src="/bw_rr.png" height="200"> | <img src="/cmyk_rr.png" height="200">   |
 
