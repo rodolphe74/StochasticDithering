@@ -1,5 +1,10 @@
 # StochasticDithering
 
-My perception of Stochastic dithering after reading chapter 3 of (https://perso.liris.cnrs.fr/victor.ostromoukhov/publications/pdf/PhD_thesis.pdf).
+Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de https://perso.liris.cnrs.fr/victor.ostromoukhov/publications/pdf/PhD_thesis.pdf.
 
+# Examples
+
+ Original| BW                                    | CMYK    |
+---      | -------                               | ------- |
+<img src="img/rr.png" height="200">  | <img src="/bw_rr.png" height="200"> | <img src="/cmyk_rr.png" height="200">   |
 
