@@ -10,19 +10,19 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 # Les étapes
 
-1 - Distribution aléatoire régulière de points ([un mix de poisson/bruit bleu](https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf))
+1 - Distribution aléatoire régulière de points ([un mix de poisson/bruit bleu](https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf)).
 
 <img src="img/poisson.png" height="200">
 
-2 - Sur laquelle est appliquée une triangulation de [Delaunay](https://fr.wikipedia.org/wiki/Triangulation_de_Delaunay)
+2 - Sur laquelle est appliquée une triangulation de [Delaunay](https://fr.wikipedia.org/wiki/Triangulation_de_Delaunay).
 
 <img src="img/delaynay.png" height="200">
 
-3 - Est alors calculé le niveau de gris moyen de chaque triangle autour d'un point en fonction de l'image à tramer
+3 - Est alors calculé le niveau de gris moyen (intensité de la couleur) de chaque triangle autour d'un point en fonction de l'image à tramer.
 
 <img src="img/dither.png" height="200">
 
-4 - Ce niveau de gris permet de calculer la taille des triangles formant la trame
+4 - Ce niveau de gris permet de calculer la taille des triangles formant la trame.
 
 <img src="img/triangles.png" height="200"> &nbsp; <img src="img/trame.png" height="200">
 
