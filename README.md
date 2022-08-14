@@ -79,6 +79,6 @@ Pour la distribution "uniform", le nombre de points n'est pas paramétrable.
 - [Distribution des points](https://github.com/corporateshark/poisson-disk-generator)
 - [Triangulation de Delaunay](https://github.com/abellgithub/delaunator-cpp)
 - [Generation de PDF](https://github.com/libharu/libharu)
-- [Dessin vecoriel](https://www.cairographics.org/)
+- [Dessin vectoriel](https://www.cairographics.org/)
 - [Lecture/ecriture images bitmap](https://github.com/nothings/stb)
 - [Rotations matricielles](https://github.com/felselva/mathc)
