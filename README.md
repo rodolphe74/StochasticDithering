@@ -66,9 +66,9 @@ La distribution de points peut être :
 
 distribution |  &nbsp;                                   |
 ---  | -------                                 |
-poisson | <img src="/img/poisson_dist.png" width="250"> |
-vogel | <img src="/img/vogel_dist.png" width="250"> |
-jittered | <img src="/img/jittered_dist.png" width="250"> |
-uniform | <img src="/img/uniform_dist.png" width="250"> |
+poisson | <img src="/img/poisson_dist.png" width="150"> |
+vogel | <img src="/img/vogel_dist.png" width="150"> |
+jittered | <img src="/img/jittered_dist.png" width="150"> |
+uniform | <img src="/img/uniform_dist.png" width="150"> |
 
 Pour la distribution "uniform", le nombre de points n'est pas paramétrable.
