@@ -63,9 +63,12 @@ Stochastic dithering options
 ```
 
 La distribution de points peut être :
-- p : poisson
-- v : vogel
-- u : uniform
-- j : jittered
+
+distribution |  &nbsp;                                   |
+---  | -------                                 |
+poisson | <img src="/img/poisson_dist.png" width="250"> |
+vogel | <img src="/img/vogel_dist.png" width="250"> |
+jittered | <img src="/img/jittered_dist.png" width="250"> |
+uniform | <img src="/img/uniform_dist.png" width="250"> |
 
 Pour la distribution "uniform", le nombre de points n'est pas paramétrable.
