@@ -41,6 +41,8 @@ Sans | Avec                                    |
 
 # Le programme
 
+L'exécutable est paramétrable grâce à des arguments en ligne de commande.
+
 ```
 Usage: sd [options] [[--] args]
    or: sd [options]
@@ -59,3 +61,11 @@ Stochastic dithering options
     -t, --distribution=<str>  which points distribution
 -=-
 ```
+
+La distribution de points peut être :
+- p : poisson
+- v : vogel
+- u : uniform
+- j : jittered
+
+Pour la distribution "uniform", le nombre de points n'est pas paramétrable.
