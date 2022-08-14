@@ -41,7 +41,7 @@ Sans | Avec                                    |
 
 # Le programme
 
-'''
+```
 Usage: sd [options] [[--] args]
    or: sd [options]
 
@@ -58,4 +58,4 @@ Stochastic dithering options
     -p, --points=<int>        how many distribution points
     -t, --distribution=<str>  which points distribution
 -=-
- '''
+```
