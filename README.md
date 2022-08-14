@@ -72,3 +72,7 @@ jittered | <img src="/img/jittered_dist.png" width="150"> |
 uniform | <img src="/img/uniform_dist.png" width="150"> |
 
 Pour la distribution "uniform", le nombre de points n'est pas paramétrable.
+
+# Les librairies
+
+- [Distrubution des points](https://github.com/corporateshark/poisson-disk-generator)
