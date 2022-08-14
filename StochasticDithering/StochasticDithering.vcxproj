@@ -70,6 +70,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>sd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>sd</TargetName>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -143,7 +149,7 @@
     <ClCompile Include="ImageUtils.cpp" />
     <ClCompile Include="PDFUtils.cpp" />
     <ClCompile Include="raster.cpp" />
-    <ClCompile Include="StochasticDitheringRGB.cpp" />
+    <ClCompile Include="sd.cpp" />
     <ClCompile Include="vertex.cpp" />
     <ClCompile Include="voronoiUtils.cpp" />
   </ItemGroup>

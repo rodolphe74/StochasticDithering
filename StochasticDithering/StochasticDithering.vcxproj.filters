@@ -30,7 +30,7 @@
     <ClCompile Include="PDFUtils.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="StochasticDitheringRGB.cpp">
+    <ClCompile Include="sd.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="ImageUtils.cpp">
