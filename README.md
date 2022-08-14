@@ -6,7 +6,7 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
  Original | BW                                    | CMYK    |
 ---      | -------                               | ------- |
-<img src="img/rr.png" width="200">  | <img src="/bw_rr.png" height="200"> | <img src="/cmyk_rr.png" height="200">   |
+<img src="img/rr.png" width="200">  | <img src="/bw_rr.png" width="200"> | <img src="/cmyk_rr.png" width="200">   |
 
 # Les étapes
 
