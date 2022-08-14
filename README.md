@@ -75,7 +75,7 @@ Pour la distribution "uniform", le nombre de points n'est pas paramétrable.
 
 # Les librairies
 
-- [Lecture des arguments] (https://github.com/Cofyc/argparse)
+- [Lecture des arguments](https://github.com/Cofyc/argparse)
 - [Distribution des points](https://github.com/corporateshark/poisson-disk-generator)
 - [Triangulation de Delaunay](https://github.com/abellgithub/delaunator-cpp)
 - [Generation de PDF](https://github.com/libharu/libharu)
