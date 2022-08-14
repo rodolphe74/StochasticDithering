@@ -1,4 +1,4 @@
-# Install script for directory: E:/developpements/visual/StochasticDithering/delaunator-cpp/gtest
+# Install script for directory: D:/developpements/visual/StochasticDithering/delaunator-cpp/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

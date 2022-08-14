@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\rodoc\HOME\developpement\visual\StochasticDithering\libharu\CMakeFiles\c80433470f05190299bc56dd12bd9d00\generate.stamp.rule">
+    <CustomBuild Include="D:\developpements\visual\StochasticDithering\libharu\CMakeFiles\7c0b371f7a2d71a913c39964ad526de6\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{EFBE5508-D3AF-3B14-81B9-E51D371256C1}</UniqueIdentifier>
+      <UniqueIdentifier>{C5037D72-EA9E-3993-BA0B-ABBEF1A9DEE9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

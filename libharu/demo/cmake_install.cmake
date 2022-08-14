@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/rodoc/HOME/developpement/visual/StochasticDithering/libharu/demo
+# Install script for directory: D:/developpements/visual/StochasticDithering/libharu/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

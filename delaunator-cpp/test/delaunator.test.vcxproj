@@ -22,10 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{37EF51CD-3E1F-330F-8E6C-ED84E5B02D67}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{2788521E-B210-340A-B44C-509222C375B1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <Platform>x64</Platform>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>delaunator.test</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -60,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">delaunator.test.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">delaunator.test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">delaunator.test.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">delaunator.test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">delaunator.test.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">delaunator.test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">delaunator.test.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">delaunator.test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -87,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -107,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -123,8 +122,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/developpements/visual/StochasticDithering/delaunator-cpp/test/Debug/delaunator.test.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/developpements/visual/StochasticDithering/delaunator-cpp/bin/Debug/delaunator.test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/developpements/visual/StochasticDithering/delaunator-cpp/test/Debug/delaunator.test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/developpements/visual/StochasticDithering/delaunator-cpp/bin/Debug/delaunator.test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -133,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4068;4290;4800;4267;4250</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -153,10 +152,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -169,8 +168,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/developpements/visual/StochasticDithering/delaunator-cpp/test/Release/delaunator.test.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/developpements/visual/StochasticDithering/delaunator-cpp/bin/Release/delaunator.test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/developpements/visual/StochasticDithering/delaunator-cpp/test/Release/delaunator.test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/developpements/visual/StochasticDithering/delaunator-cpp/bin/Release/delaunator.test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -179,7 +178,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4068;4290;4800;4267;4250</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -199,10 +198,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -215,8 +214,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/developpements/visual/StochasticDithering/delaunator-cpp/test/MinSizeRel/delaunator.test.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/developpements/visual/StochasticDithering/delaunator-cpp/bin/MinSizeRel/delaunator.test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/developpements/visual/StochasticDithering/delaunator-cpp/test/MinSizeRel/delaunator.test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/developpements/visual/StochasticDithering/delaunator-cpp/bin/MinSizeRel/delaunator.test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -225,7 +224,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4068;4290;4800;4267;4250</DisableSpecificWarnings>
@@ -244,10 +243,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNING;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\developpements\visual\StochasticDithering\delaunator-cpp\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\developpements\visual\StochasticDithering\delaunator-cpp\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\include;D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -260,8 +259,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/developpements/visual/StochasticDithering/delaunator-cpp/test/RelWithDebInfo/delaunator.test.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/developpements/visual/StochasticDithering/delaunator-cpp/bin/RelWithDebInfo/delaunator.test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/developpements/visual/StochasticDithering/delaunator-cpp/test/RelWithDebInfo/delaunator.test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/developpements/visual/StochasticDithering/delaunator-cpp/bin/RelWithDebInfo/delaunator.test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -269,11 +268,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeLists.txt">
+    <CustomBuild Include="D:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/developpements/visual/StochasticDithering/delaunator-cpp -BE:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/developpements/visual/StochasticDithering/delaunator-cpp -BD:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +280,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/developpements/visual/StochasticDithering/delaunator-cpp -BE:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/developpements/visual/StochasticDithering/delaunator-cpp -BD:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +293,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/developpements/visual/StochasticDithering/delaunator-cpp -BE:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/developpements/visual/StochasticDithering/delaunator-cpp -BD:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,12 +306,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/developpements/visual/StochasticDithering/delaunator-cpp -BE:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file E:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/developpements/visual/StochasticDithering/delaunator-cpp -BD:/developpements/visual/StochasticDithering/delaunator-cpp --check-stamp-file D:/developpements/visual/StochasticDithering/delaunator-cpp/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -320,27 +319,27 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\ProcessorCount.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\developpements\visual\StochasticDithering\delaunator-cpp\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\developpements\visual\StochasticDithering\delaunator-cpp\test\delaunator.test.cpp" />
+    <ClCompile Include="D:\developpements\visual\StochasticDithering\delaunator-cpp\test\delaunator.test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\developpements\visual\StochasticDithering\delaunator-cpp\ZERO_CHECK.vcxproj">
-      <Project>{0EF46A09-670E-3580-A50F-987C51E93510}</Project>
+    <ProjectReference Include="D:\developpements\visual\StochasticDithering\delaunator-cpp\ZERO_CHECK.vcxproj">
+      <Project>{0F817B66-F8B0-3AEE-9BCF-D51B5C39A615}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\developpements\visual\StochasticDithering\delaunator-cpp\delaunator.vcxproj">
-      <Project>{CC19D546-E3F5-3405-ABD2-ACE747BE3443}</Project>
+    <ProjectReference Include="D:\developpements\visual\StochasticDithering\delaunator-cpp\delaunator.vcxproj">
+      <Project>{3B16C075-2617-35BF-BA23-74F3755E5251}</Project>
       <Name>delaunator</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\gtest.vcxproj">
-      <Project>{EB1A5E68-F782-3DAE-A5F5-820316206C80}</Project>
+    <ProjectReference Include="D:\developpements\visual\StochasticDithering\delaunator-cpp\gtest\gtest.vcxproj">
+      <Project>{68AF06F4-1838-35FD-87CE-7277ED50E248}</Project>
       <Name>gtest</Name>
     </ProjectReference>
   </ItemGroup>

@@ -111,7 +111,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\argparse\Debug;..\mathc\x64\Debug;..\delaunator-cpp\Debug;..\libharu\src\Debug;..\cairo_static.1.15.4.9\build\native\lib\x64\v142\Debug\MultiThreadedDebugDLL;..\zlib_static.1.2.11.11\build\native\lib\x64\v142\Debug\MultiThreadedDebugDLL;..\libpng_static.1.4.1.13\build\native\lib\x64\v142\Debug\MultiThreadedDebugDLL;..\pixman_static.0.32.4.10\build\native\lib\x64\v142\Debug\MultiThreadedDebugDLL;..\cairo_static.1.15.4.9\build\native\lib\x64\v142\debug\MultiThreadedDLL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>argparse.lib;mathc.lib;libhpdfd.lib;delaunator.lib;zlib.lib;libpng.lib;pixman.lib;cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>argparse.lib;mathc.lib;libhpdfsd.lib;delaunator.lib;zlib.lib;libpng.lib;pixman.lib;cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <StackReserveSize>4194304</StackReserveSize>
       <StackCommitSize>8192</StackCommitSize>
     </Link>
@@ -133,7 +133,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\argparse\Release;..\mathc\x64\Release;..\delaunator-cpp\Release;..\libharu\src\Release;..\zlib_static.1.2.11.11\build\native\lib\x64\v142\Release\MultiThreadedDLL;..\libpng_static.1.4.1.13\build\native\lib\x64\v142\Release\MultiThreadedDLL;..\pixman_static.0.32.4.10\build\native\lib\x64\v142\Release\MultiThreadedDLL;..\cairo_static.1.15.4.9\build\native\lib\x64\v142\Release\MultiThreadedDLL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>argparse.lib;mathc.lib;libhpdf.lib;delaunator.lib;zlib.lib;libpng.lib;pixman.lib;cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>argparse.lib;mathc.lib;libhpdfs.lib;delaunator.lib;zlib.lib;libpng.lib;pixman.lib;cairo.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <StackReserveSize>4194304</StackReserveSize>
       <StackCommitSize>8192</StackCommitSize>
     </Link>

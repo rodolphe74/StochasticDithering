@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\developpements\visual\StochasticDithering\delaunator-cpp\CMakeFiles\7dcd98c599e210cb753b658b3e13e2d6\generate.stamp.rule">
+    <CustomBuild Include="D:\developpements\visual\StochasticDithering\delaunator-cpp\CMakeFiles\245b0bbbe20f9dbcc452840b70862264\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{795226A9-6D9B-3994-B45A-A67D22FF1806}</UniqueIdentifier>
+      <UniqueIdentifier>{356780F3-F550-37D7-9ACB-D7E5D468BEDC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
