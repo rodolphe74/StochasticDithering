@@ -4,9 +4,9 @@ Ma perception du "tramage aléatoire regroupé" après avoir lu le chapitre 3 de
 
 # Examples
 
- <div style="width:290px">property</div> | BW                                    | CMYK    |
+ Original | BW                                    | CMYK    |
 ---      | -------                               | ------- |
-<img src="img/rr.png" height="200">  | <img src="/bw_rr.png" height="200"> | <img src="/cmyk_rr.png" height="200">   |
+<img src="img/rr.png" width="200">  | <img src="/bw_rr.png" height="200"> | <img src="/cmyk_rr.png" height="200">   |
 
 # Les étapes
 
