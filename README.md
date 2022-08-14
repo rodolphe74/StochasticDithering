@@ -35,7 +35,7 @@ Sans | Avec                                    |
 <img src="img/without.png" width="250">  | <img src="/img/with.png" width="250"> |
 
 
-7 - La version CMYK reprend le même principe que la version BW. L'image couleur est d'abord décomposée en teintes Cyan, Magenta, Jaune, Noir. Chaque teinte subit une rotation spécifique avant le processus de tramage. Une image composite resultante est créée à partir des 4 teintes sur lesquelles les rotations inverses respectives ont été préalablement réalisées.
+7 - La version CMYK reprend le même principe que la version BW. L'image couleur est d'abord décomposée en teintes Cyan, Magenta, Jaune, Noir. Chaque teinte subit une rotation spécifique avant le processus de tramage. Une image composite résultante est créée à partir des 4 teintes sur lesquelles les rotations inverses respectives ont été préalablement réalisées.
 
 <img src="cmyk_rr_10.png" width="250">
 
