@@ -1,4 +1,4 @@
-# Install script for directory: D:/developpements/visual/libs/argparse
+# Install script for directory: D:/developpements/visual/StochasticDithering/argparse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/developpements/visual/libs/argparse/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/developpements/visual/StochasticDithering/argparse/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

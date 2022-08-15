@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\developpements\visual\libs\argparse\argparse.c">
+    <ClCompile Include="D:\developpements\visual\StochasticDithering\argparse\argparse.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\developpements\visual\libs\argparse\CMakeLists.txt" />
+    <CustomBuild Include="D:\developpements\visual\StochasticDithering\argparse\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{BFC7F76F-479B-3ABE-A077-E426CFDB72BB}</UniqueIdentifier>
+      <UniqueIdentifier>{269F5AC6-2B36-301C-85E2-2083A0E9931A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
